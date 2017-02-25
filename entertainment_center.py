@@ -10,4 +10,9 @@ avatar = media.Movie("Avatar", "Marine on an enemy planet", "https://upload.wiki
 #define "movies" array
 movies = [toy_story, avatar]
 
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+
+
+#print(media.Movie.VALID_RATINGS)
+print(media.Movie.__doc__)
+
